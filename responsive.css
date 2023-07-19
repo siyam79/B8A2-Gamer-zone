@@ -52,18 +52,17 @@
         margin: 0 10px 0 80px;
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
+    .sponcer-logo{
+        padding:0 ;
+        margin: 0;
+        gap: ;
+    }
+    .sponcer{
+        gap:30px;
+    }
+    footer{
+        padding: 0 20px;
+    }
 
   }
 
