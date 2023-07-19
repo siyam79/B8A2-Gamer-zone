@@ -212,9 +212,9 @@ section h3{
 
 
 .features-banner{
-    width: 1150px;
+    max-width:1150px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row ;
     justify-content: space-around;
      align-items: center; 
      text-align: left;
@@ -222,26 +222,30 @@ section h3{
     padding-bottom:150px;
 }
 .rd-anniversary{
-    max-width: 500px;
+     width:70%;
     margin-top: 40px;
     padding-left:40px;
 
 }
 .design-img{
-    width:250px;
+    width:40%;
     height:300px;
-    position: relative;
-    left:11.25rem;
-    top:6.25rem;
+    position: absolute;
+    top:200px;
+    left: -60px;
 }
 .features-img{
+    position: relative;
     margin:3px 0px 0 0;
+    width: 50%;
 }
 .features h1 ,p {
     margin-left:110px;
     padding-top: 10px;
 }
-
+.features-img {
+    
+}
 
  /* sponcer */
 
